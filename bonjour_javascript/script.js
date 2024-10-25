@@ -1,8 +1,8 @@
 
 
 // Je cree ma variable message et lui assigne Bonjour !
-//let firstname = 
-let firstname = prompt("Quel est votre prenom ?");
+let firstname = "Beyonce"
+//let firstname = prompt("Quel est votre prenom ?");
 
 let message = "Bonjour " + firstname +" !"
 
@@ -11,14 +11,15 @@ let message = "Bonjour " + firstname +" !"
 
 function sayHello(firstname,hour)
 {
-    if (hour < 18 ){
-        document.querySelector('h1').innerText = message;
-        //console.log("Bonjour " + firstname);
+    if (hour <= 18 ){
+        //document.querySelector('h1').innerText = message;
+        console.log("Bonjour " + firstname);
     }
         else {
-            document.querySelector('h1').innerText = message;
-           // console.log("Bonsoir " + firstname)
+           // document.querySelector('h1').innerText = message;
+            console.log("Bonsoir " + firstname)
             
+       
         }
     }
-sayHello()
+sayHello("Beyonce",22)
