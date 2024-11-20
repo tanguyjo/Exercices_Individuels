@@ -15,7 +15,7 @@ const paragraph1 = document.getElementById("Resultat");
 // function guess() {
 
 //    let Numbertoguess = prompt("Donne un nombre a deviner entre 0 < ? < 100")
-//    while (Numbertoguess > 100 || Numbertoguess < 0) {
+//  while (Numbertoguess > 100 || Numbertoguess < 0) {
 //       Numbertoguess = prompt("Redonne un nombre a deviner entre 0 < ? < 100!!")
       
 //    }return Numbertoguess

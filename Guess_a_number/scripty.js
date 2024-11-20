@@ -92,3 +92,7 @@ document.getElementById('Valider').addEventListener('click', function() {
 }}
 
 
+
+function square(length){
+  for(length,)
+}
