@@ -246,4 +246,7 @@ function CountrygamePlay(givenCountry) {
          alert("False, Try again and give a Country that starts with the letters:  " + resultletterCountry +" It is your " + comptesCountry + " try") 
    }}
    
-   
+
+ let randomNumber = Math.floor(Math.random() * 10001);
+ console.log(randomNumber);
+

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3ec6c122-d2f7-43f3-88b2-d77ed0843096" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Guess_a_number/Guess.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Guess_a_number/guess.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Guess_a_number/guess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bonjour_javascript/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../bonjour_javascript/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/palindromes.js" beforeDir="false" afterPath="$PROJECT_DIR$/palindromes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "tanguyjo"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:tanguyjo/Exercices_Individuels.git",
+    "accountId": "10c3369c-a32d-4003-a4b4-3fbfbde844a5"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2qLXn2dJ4ePR0j1nS5R0olwNEiY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Tanguy/Desktop/COUR/Ada_Tech_School/Exercices_individuels/Exercices_Individuels/jouons_avec_les_palindromes",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-WS-243.21565.180" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ec6c122-d2f7-43f3-88b2-d77ed0843096" name="Changes" comment="" />
+      <created>1734442992953</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734442992953</updated>
+      <workItem from="1734442994210" duration="59000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
