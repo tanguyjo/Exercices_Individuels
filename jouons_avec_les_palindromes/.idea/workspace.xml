@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ec6c122-d2f7-43f3-88b2-d77ed0843096" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Guess_a_number/Guess.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Guess_a_number/guess.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Guess_a_number/guess.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bonjour_javascript/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../bonjour_javascript/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/palindromes.js" beforeDir="false" afterPath="$PROJECT_DIR$/palindromes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Guess_a_number/Guess/Guess.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Guess_a_number/Guess/Guess.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Motus/Motus.HTML" beforeDir="false" afterPath="$PROJECT_DIR$/../Motus/Motus.HTML" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Motus/Motus.JS" beforeDir="false" afterPath="$PROJECT_DIR$/../Motus/Motus.JS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Motus/node_modules/.vite/vitest/results.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Motus/node_modules/.vite/vitest/results.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,37 +15,37 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "tanguyjo"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;tanguyjo&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:tanguyjo/Exercices_Individuels.git",
-    "accountId": "10c3369c-a32d-4003-a4b4-3fbfbde844a5"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:tanguyjo/Exercices_Individuels.git&quot;,
+    &quot;accountId&quot;: &quot;10c3369c-a32d-4003-a4b4-3fbfbde844a5&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2qLXn2dJ4ePR0j1nS5R0olwNEiY" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Tanguy/Desktop/COUR/Ada_Tech_School/Exercices_individuels/Exercices_Individuels/jouons_avec_les_palindromes",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Tanguy/Desktop/COUR/Ada_Tech_School/Exercices_individuels/Exercices_Individuels/jouons_avec_les_palindromes&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -64,6 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1734442992953</updated>
       <workItem from="1734442994210" duration="59000" />
+      <workItem from="1734620738937" duration="142000" />
     </task>
     <servers />
   </component>

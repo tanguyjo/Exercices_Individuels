@@ -196,7 +196,7 @@ function WordgamePlay(givenWord) {
   const randomCountry = Math.floor(Math.random() * countries.length);
   return countries[randomCountry];
 }
-
+console
 
 CountrytoGuess = getRandomCountries()
 console.log(CountrytoGuess)

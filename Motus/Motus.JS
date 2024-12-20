@@ -9,7 +9,7 @@ const win   =  document.getElementById("win");
 
 function tryWord(word, base) {
   // TODO: fix jeu sensible à la casse.
-  if (word === base) {
+  if (word.toLowerCase() === base) {
     return true;
   } else {
     let wellPlaced = [];
@@ -44,9 +44,9 @@ console.log(wellPlaced,missplaced,notInWord)
 function guess() {
   let base = "dictionnaire";
   let word = document.getElementById("word").value;
-  let result = tryWord(word, base);
+  let result = tryWord(word.toLowerCase(), base);
  
-if(word == ""|| word == " ")
+if(word == ""|| word == " "){
     return
   }
 
@@ -64,4 +64,5 @@ if(word == ""|| word == " ")
   
   }
 }
+
 module.exports = {tryWord,guess}
