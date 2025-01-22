@@ -117,4 +117,4 @@ console.log("Etape 3 Recursif");
  afficherDossierRecursifEntier(dossierPrincipal)
  console.log('-'.repeat(50));
 //Qu’en penses-tu ? Quels sont les avantages et inconvénients de chaque manière d’écrire ?
-// De la maniere Iteratif on peut voir tout les dossierPrincipals et dossiers en meme temps, mais on doit faire un boucle pour chaque dossier
+// De la maniere Iteratif on peut voir tout les dossierPrincipals et dossiers en meme temps, mais on doit faire un boucle pour chaque dossier donc c'est pas pratique
