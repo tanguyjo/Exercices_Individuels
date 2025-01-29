@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculatrice graphique</title>
+    <script defer src="Calc.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="Calc.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="calculatrice">
+        <br>
+        <input type="text" id="resultat" value="" />
+        <input type="button" class="operateur" value="AC" onclick="effacer()" />
+        <input type="button" class="chiffre" value="7" onclick="affichage(value)" />
+        <input type="button" class="chiffre"value="8" onclick="affichage(value)" />
+        <input type="button" class="chiffre"value="9" onclick="affichage(value)" />
+        <input type="button" class="operateur" value="*" onclick="affichage(value)"/>
+        <input type="button" class="chiffre"value="4" onclick="affichage(value)" />
+        <input type="button" class="chiffre"value="5" onclick="affichage(value)" />
+        <input type="button" class="chiffre"value="6" onclick="affichage(value)" />
+        <input type="button" class="operateur"  value="-" onclick="affichage(value)"/>
+        <input type="button" class="chiffre"value="1" onclick="affichage(value)" />
+        <input type="button" class="chiffre"value="2" onclick="affichage(value)" />
+        <input type="button" class="chiffre"value="3" onclick="affichage(value)" />
+        <input type="button" class="operateur" value="+" onclick="affichage(value)"/>
+        <input type="button" class="chiffre"value="/" onclick="affichage(value)" />
+        <input type="button" class="chiffre"value="0" onclick="affichage(value)" />
+        <input type="button" class="chiffre"value="." onclick="affichage(value)" />
+        <input type="button" class="operateur" id="egal" value="=" onclick="calculer()"/>
+        <input type="button" class="chiffre" value="%" onclick="affichage(`/100`)" />
+        <input type="button" class="chiffre"value="()" onclick="affichage(value)" />
+
+        
+      </div>
+    </div>
+  </body>
+</html>
