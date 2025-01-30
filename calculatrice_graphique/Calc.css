@@ -66,3 +66,14 @@
             transform: scale(0.8);
         }
       }
+
+      .chiffre-small {
+        background-color: rgb(86, 84, 84);
+        font-size: xx-large;
+       
+    }
+
+    .chiffre-light {
+      background-color: rgb(155, 155, 155);
+      font-size: xx-large;
+  }
