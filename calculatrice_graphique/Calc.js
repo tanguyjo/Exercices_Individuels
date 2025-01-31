@@ -1,24 +1,37 @@
-let Shown = document.getElementById('resultat');
+let Shown = document.getElementById("resultat");
 
 function affichage(value) {
-   Shown.value += value;
+  Shown.value += value;
 }
 
 function effacer() {
-    Shown.value = '';
+  Shown.value = "";
 }
 
 function calculer() {
- let result = eval(Shown.value);
- if(result === Infinity) {
-    result = 'Non defini';}
-Shown.value = result;
+  let result = eval(Shown.value);
+  if (result === Infinity) {
+    result = "Non defini";
+  }
+  Shown.value = result;
 }
 function deleted() {
-    Shown.value = Shown.value.slice(0, -1);
+  Shown.value = Shown.value.slice(0, -1);
 }
-// document.getElementById("searchInput").addEventListener("keypress", (e) => {
-//     if (e.key === "Enter") {                           // quand on appuis sur enter ca simule le clic du bouton 
-//       document.getElementById("egal").click(); // Simule un clic sur le bouton
+
+document.addEventListener("keydown", function (event) {
+  if (event.key === "Enter") {
+    calculer();
+  }
+});
+
+// document.addEventListener('keydown', function(event) {
+//     if (event.key === 'Enter') {
+//         const focusedButton = document.activeElement;
+//         if (focusedButton && focusedButton.tagName === 'BUTTON') {
+//             focusedButton.blur();
+//         }
+//         calculer();
+//         event.preventDefault();
 //     }
-//   });
+// });

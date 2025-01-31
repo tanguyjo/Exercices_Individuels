@@ -15,10 +15,13 @@
     <link rel="stylesheet" href="Calc.css" />
   </head>
   <body>
+
     <div class="container">
-      <div id="calculatrice">  
-        <br>
-        <input type="text" id="resultat" value="" />
+
+      <div id="calculatrice">
+        <!-- <p>Calculatrice </p> -->
+        <br> 
+        <input type="text" id="resultat" value="" />       
         <input type="button" class="chiffre-light" value="AC" onclick="effacer()" />
         <input type="button" class="chiffre-light" value="%" onclick="affichage(`/100`)" />
         <input type="button" class="chiffre-light" value="π" onclick="affichage(Math.PI)"/> 
@@ -37,12 +40,12 @@
         <input type="button" class="operateur" value="+" onclick="affichage(value)"/>
         <input type="button" class="chiffre-light"value="⌫" onclick="deleted()" />
         <input type="button" class="chiffre"value="0" onclick="affichage(value)" /> 
-        <input type="button" class="chiffre"value="." onclick="affichage(value)" />
+        <input type="button" class="chiffre"value="," onclick="affichage(`.`)" />
         <input type="button" class="operateur" id="egal" value="=" onclick="calculer()"/>
         <input type="button" class="chiffre"value="(" onclick="affichage(value)" />
         <input type="button" class="chiffre"value=")" onclick="affichage(value)" />
         <input type="button" class="chiffre" value="√" onclick="affichage(`**(1/2)`)"/>
-
+        <input type="button" class="chiffre" value="x²" onclick="affichage(`**2`)"/>
       </div>
     </div>
   </body>
