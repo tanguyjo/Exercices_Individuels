@@ -25,13 +25,3 @@ document.addEventListener("keydown", function (event) {
   }
 });
 
-// document.addEventListener('keydown', function(event) {
-//     if (event.key === 'Enter') {
-//         const focusedButton = document.activeElement;
-//         if (focusedButton && focusedButton.tagName === 'BUTTON') {
-//             focusedButton.blur();
-//         }
-//         calculer();
-//         event.preventDefault();
-//     }
-// });
