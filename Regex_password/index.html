@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>password Checker</title>
+    <script defer src="regex.js"></script>
+</head>
+<body>
+    <div class="text">
+        
+    </div>
+    <div class="pass">
+        <h1>Password Checker</h1>
+        <p>Enter your password to check if it is strong or weak and valid!</p>
+        <p>Password must be at least <span class="imp">8 characters long</span>, contain at least <span class="imp">one uppercase </span>and <span class="imp">one lowercase</span> and <span class="imp">one number </span>and <span class="imp">one special character </span></p>
+        <div class="input">
+                    <input type="text" id="pass" placeholder="Enter password"><br><br>
+        </div>
+        <div class="button">
+            <button id="check">Check Password</button>
+            <h3 id="result">checker:</h3>       
+        </div>
+</div>    
+</body>
+
+<style>
+    .imp{
+        color: rgb(243, 13, 13);
+    }
+    body{
+        position: relative;
+        background-color: #f2f2f2;
+        font-family: Arial, sans-serif;
+        color: #333;
+        text-align: center;
+
+    }
+    .pass{
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+    }
+    input[type="text"]{
+        width: 300px;
+        padding: 10px;
+        border: 2px solid #8e56e3;
+        border-radius: 5px;
+        font-size: 16px;
+        transition: border-color .3s;
+    }
+</style>
+</html>
