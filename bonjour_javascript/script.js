@@ -22,3 +22,5 @@ function sayHello(firstname, hour) {
     }
 }
 sayHello("Beyonce", 22)
+sayHello("Beyonce", 13)
+
